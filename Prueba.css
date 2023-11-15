@@ -1,0 +1,319 @@
+body{
+    background-color: #24292E;
+    padding: 20px;
+}
+        .mychart
+        {
+            width: 35.56% !important;  
+            height: 150px !important;
+            margin-top: 120px !important;
+        }
+        .mychart3,
+        .mychart4,
+        .mychart5,
+        .mychart6
+        {
+            width:180px !important;
+            height: 100px !important;
+        }
+        .mychart,
+        .mychart2{
+            display: inline-block !important;
+            justify-content: center !important;
+          
+        }
+        .mychart2{
+            width:  23.33% !important;
+            height: 25% !important;
+            margin-right: 22% !important;
+            margin-left: 10% ;
+            margin-top: 160px !important;
+        }
+        .contenedor1{
+            display: flex;
+            background-color: #272E35;
+            width: 89%;
+            height: 300px;
+            padding: 0 4% 20px 8%;
+            border-radius: 10px;
+            position: relative;
+         box-sizing: border-box;
+         margin-left: 35px;
+
+        }
+         .contenedor1 input{
+            position: absolute;
+            align-self: flex-start;
+            top: 62px;
+            width: calc(85% - 40px);
+            background-color: #20262D;
+            border: solid #20262D 5px;
+            border-radius: 5px;
+            height: 25px;
+        }
+
+        .contenedor1 p{
+            font-size: 25px;
+            color: white;
+            align-self: flex-start;
+            position: absolute;
+            
+          
+        }
+       
+
+        .contenedor2,
+        .contenedor4{
+            margin-left: 35px;
+        }
+        .contenedor2,
+        .contenedor3,
+        .contenedor4,
+        .contenedor5{
+            background-color: #2F363D;
+           
+            margin-right: 15px;
+            display: flex;
+            width: 43.7%;
+            border-radius: 10px ;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .contenedor-principal,
+        .contenedor-principal2{
+            display: flex;
+            margin-top: 15px;
+            
+        }
+
+.right{
+
+    width: 40%;
+    height: 100px;
+}
+
+.all{
+    display: flex;
+
+}
+        
+
+.left{
+    width: 60%;
+  
+}
+
+.derecha1{
+    width: 100%;
+    background: linear-gradient(90deg, #13B497 0%, #05737A 100%);
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.swiper {
+  width: 100%;
+  height: 310px;
+border-radius: 10px;
+  
+}
+
+img{
+    width: 100%;
+    height: 310px;
+    border-radius: 10px;
+   
+}
+
+
+.mychart7{
+            width: 70.56% !important;  
+            height: 150px !important;}
+
+
+ .mychart8{
+            width:140px !important;
+            height: 80px !important;
+
+        }
+
+
+        
+.con{
+    color: aliceblue;
+    margin-right: 20px;
+    
+}
+
+.buscador{
+
+    position:sticky;
+    align-self: flex-start;
+    top: 62px;
+    width: 1200px;
+    background-color: #20262D;
+    border: solid #20262D 5px;
+    border-radius: 5px;
+    height: 30px;
+    margin-right: 10px;
+
+
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.set{
+    color:  white;
+    
+}
+
+.settings{
+    background-color: #2F363D;
+    padding: 7px;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+
+
+
+.perfil{
+    width: 27px;
+    height: 27px;
+}
+
+
+.one{
+
+    width: 60%;
+    display: flex;
+    align-items: center;
+    
+    margin-left: 40px;
+}
+
+.two{
+    display: flex;
+    justify-content: end;
+    width: 40%;
+    
+}
+
+
+@media (max-width: 560px) {
+    .xxc{
+        display: none;
+    }
+    .buscador{
+        width: 55% !important;
+
+    }
+}
+
+        @media (max-width: 800px) {
+        .left{
+            margin-right: 30px;
+        }
+        }
+
+
+
+        @media (max-width: 500px) {
+            .all{
+                display: block;
+            }
+            .one{
+                align-items: start;
+            }
+        .left{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .right{
+            width:100%;
+           
+        }
+        
+.line{
+    display: none;
+}
+        .contenedor-principal,
+        .contenedor-principal2{
+            display: block;
+        }
+        .contenedor1{
+            margin-left: 5px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .contenedor2,
+        .contenedor3,
+        .contenedor4,
+        .contenedor5{
+            margin-left: 5px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+.mychart
+{
+    display: none !important;
+}
+
+
+.mychart2{
+    width: 60% !important;
+    height: 40% !important;
+    margin-top: 130px !important;
+}
+
+.mychart8{
+    width:50% !important;
+    height: 100px !important;
+
+}
+
+.contenedor5{
+    min-height: 120px;
+}
+
+.one{
+    margin-left: 5px;
+}
+
+
+
+.mychart3,
+.mychart4,
+.mychart5{
+    width: 60% !important;
+    height: 50%;
+}
+
+.contenedor4,
+.derecha1{
+    display: none !important;
+}
+
+}
+
+@media (max-width: 177px) {
+    .contenedor1 p{
+        font-size: 15px;
+    }
+    .me{
+        display: none;
+    }
+    
+
+}
